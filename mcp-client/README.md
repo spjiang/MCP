@@ -50,3 +50,9 @@ uv add mcp openai python-dotenv
 touch .env
 ```
 
+## 运行客户端 + MCP Server 端
+
+```bash
+uv run client.py weather_server.py
+```
+
